@@ -3,11 +3,9 @@ version: '3.9'
 services:
   backend:
     container_name: backend
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
+    image: sammich86/ytcdeploy-backend:latest
     ports:
-      - "8001:8000"
+      - "80:8000"
     depends_on:
       db:
         condition: service_healthy
