@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  ytcdeployfrontend:
+   container_name: ytcdeployfrontend
+   image: sammich86/ytcdeploy-frontend:latest
+   ports:
+     - "80:80"

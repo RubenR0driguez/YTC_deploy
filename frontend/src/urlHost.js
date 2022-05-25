@@ -1,4 +1,4 @@
 export const URL_HOST =
   process.env.NODE_ENV === "production"
     ? "PRODUCTION BASE URL HERE"
-    : "http://127.0.0.1:8000";
+    : "http://ytcdeploybackend-env.eba-qmstw2yh.us-east-1.elasticbeanstalk.com/";
